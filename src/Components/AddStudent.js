@@ -2,7 +2,7 @@ import React, { useState , useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import { useNavigate , useParams ,Link } from 'react-router-dom';
+import { useNavigate , useParams } from 'react-router-dom';
 import { addStudent , updateStudent } from '../Action/studentAction';
 
 

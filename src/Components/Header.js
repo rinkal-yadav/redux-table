@@ -11,20 +11,7 @@ function Header() {
 
                 </form>
             </nav>
-        // <>
-        //     <table class="table table-dark table-hover">
-        //         <th>Name</th>
-        //         <th>Age</th>
-        //         <th>course</th>
-        //         <th>batch</th>
-        //         <th>change</th>
-        //         <tr>
-        //             <td>Rinkal</td>
-        //             <td>24</td>
-
-        //         </tr>
-        //     </table>
-        // </>
+        
     )
 }
 
