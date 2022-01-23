@@ -7,27 +7,13 @@ body{
   
 }
 
-.Header{
-  margin: 10px;
-  padding: 10px;
-  height: 40px;
-  display: flex;
-  background-color: rgb(32, 207, 76);
-  flex-direction: row;
-  justify-content: space-evenly;
-
-}
-
-
-.color{
-  text-decoration: none;
-  font-weight: 600;
-  font-style: italic;
-  font-size: 25px;
-}
 
 .center{
   text-align: center;
+}
+
+.addstu{
+  margin-top: 10px;
 }
 
 .table-heading{
@@ -36,27 +22,17 @@ body{
   justify-content:space-around;
 }
 
-.add-student-btn{
-  margin-top: 30px;
-  width: 250px;
-  height: 50px;
-  border: 2px solid black;
-  border-radius: 35px;
-  background-color: brown;
-  font-weight: bold;
-  font-size: 20px;
-
-  
+.table-marg{
+  margin-left: 16%;
+  margin-top: 20px;
 }
 
 .add-form-btn{
-  margin-left: 55%;
+  margin-left: 57%;
+  margin-top: -66px;
 
 }
 
-.table-main{
-  background-color: tomato;
-  border-radius: 35px;
-  margin-top: 20px;
-  margin-left: 235px;
+.cancel-btn{
+  margin-left: 50%;
 }

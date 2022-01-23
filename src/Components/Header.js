@@ -1,17 +1,30 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
-        <div className='Header'>
-                    
-                            <span > <Link className='color' to='/home'>Home</Link></span>
-                            <span > <Link className='color' to='/student'>Students</Link></span>
-                            <span > <Link className='color' to='/contact'>Contact Us</Link></span>
+           <nav class="navbar navbar-light bg-light">
+                <form class="container-fluid justify-content-evenly">
+                <Link className='color' to='/home'><button class="btn btn-outline-success me-2" type="button">Home</button></Link>
+                <Link className='color' to='/student'><button class="btn btn-outline-success me-2" type="button">Students</button></Link>
+                <Link className='color' to='/contact'><button class="btn btn-outline-success me-2" type="button">Contact Us</button></Link>
 
-                    
+                </form>
+            </nav>
+        // <>
+        //     <table class="table table-dark table-hover">
+        //         <th>Name</th>
+        //         <th>Age</th>
+        //         <th>course</th>
+        //         <th>batch</th>
+        //         <th>change</th>
+        //         <tr>
+        //             <td>Rinkal</td>
+        //             <td>24</td>
 
-        </div>
+        //         </tr>
+        //     </table>
+        // </>
     )
 }
 
