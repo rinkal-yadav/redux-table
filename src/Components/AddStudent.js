@@ -43,7 +43,7 @@ const AddStudent = () => {
             return;
         }
 
-        if(!Id =="" ){
+        if(!Id ===false ){
           console.log(Id);
           const Data = {...student , id:Id}
         dispatch(updateStudent(Data))    
